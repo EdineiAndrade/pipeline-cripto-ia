@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/salvar.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/salvar",
+      "dest": "api/salvar.py",
+      "methods": ["POST"]  
+    }
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.9"
+  }
+}

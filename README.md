@@ -1,6 +1,6 @@
 # 🚀 Pipeline de Dados com API & IA para Criptoativos
 
-🔗 **[Acesse o Dashboard Aqui](COLE_O_LINK_DA_APLICACAO_AQUI)**  
+🔗 **[ 👉 Acesse o Dashboard no streamlit Aqui ](https://pipeline-cripto-ia.streamlit.app)**  
 📸 ![Visual do App](./img/tela_app.png)
 
 Este projeto implementa um pipeline inteligente para **coleta, processamento, análise e visualização** de dados do mercado de **criptomoedas**, integrando **Inteligência Artificial** e **dashboards interativos** em tempo real.
