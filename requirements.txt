@@ -4,9 +4,6 @@ numpy
 pandas
 streamlit
 plotly
-fastapi==0.109.1
-uvicorn==0.27.0
 sqlalchemy==2.0.25
 python-dotenv==1.0.0
-requests==2.31.0
 python-dotenv==1.0.0
