@@ -6,14 +6,25 @@
       "use": "@vercel/python",
       "config": {
         "runtime": "python3.9",
-        "includeFiles": ["api/*.py", "requirements.txt"]
+        "includeFiles": [
+          "api/*.py",
+          "core/*.py",
+          "requirements.txt",
+          ".env"
+        ]
       }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "api/main.py"
+      "src": "/salvar",
+      "dest": "api/main.py",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/",
+      "dest": "api/main.py",
+      "methods": ["GET"]
     }
   ]
 }
