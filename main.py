@@ -1,4 +1,4 @@
-from pipeline_dados.api.main import main
+from api.main import main
 
 if __name__ == "__main__":
     main()
