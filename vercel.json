@@ -2,18 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/salvar.py",
-      "use": "@vercel/python"
+      "src": "api/main.py",
+      "use": "@vercel/python",
+      "config": {
+        "runtime": "python3.9",
+        "includeFiles": ["api/*.py", "requirements.txt"]
+      }
     }
   ],
   "routes": [
     {
-      "src": "/salvar",
-      "dest": "api/salvar.py",
-      "methods": ["POST"]  
+      "src": "/(.*)",
+      "dest": "api/main.py"
     }
-  ],
-  "env": {
-    "PYTHON_VERSION": "3.9"
-  }
+  ]
 }
