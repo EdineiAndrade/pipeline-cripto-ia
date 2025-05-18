@@ -1,0 +1,10 @@
+requests
+tinydb
+python-dotenv
+sqlalchemy
+psycopg2
+matplotlib
+numpy
+pandas
+streamlit
+plotly
